@@ -12,7 +12,7 @@ To configure the MCP server for Windows, ensure your `cline_mcp_settings.json` f
         "@modelcontextprotocol/server-github"
       ],
       "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "YOUR_GITHUB_PERSONAL_ACCESS_TOKEN"
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "YOUR_GITHUB_PERSONAL_ACCESS_TOKEN"  // Replace with your actual token
       },
       "disabled": false,
       "autoApprove": []
@@ -21,4 +21,4 @@ To configure the MCP server for Windows, ensure your `cline_mcp_settings.json` f
 }
 ```
 
-**Note:** Replace `YOUR_GITHUB_PERSONAL_ACCESS_TOKEN` with your actual GitHub Personal Access Token.
+**Note:** Replace `YOUR_GITHUB_PERSONAL_ACCESS_TOKEN` with your actual GitHub Personal Access Token. This is the key modification to ensure the server can authenticate with GitHub.
